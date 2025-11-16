@@ -53,6 +53,10 @@ You must download the required datasets manually or through their official APIs.
 - **TIGER/Line Road Centerlines**  
 - **California Interagency Fire Perimeter History**  
 - **Facility/FIRESCOP maps** (for discrepancy analysis)
+- 
+![Topography Preview](output/elevation_tiles.png)
+
+![Temperature Preview](output/tmean-197908.png)
 
 ### *Detailed descriptions:*
 - **Features dictionary:**-> [Features](docs/features.md)
