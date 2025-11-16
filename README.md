@@ -1,4 +1,4 @@
-# Stacked Ensemble Modeling of California Wildfire Susceptibility
+# Stacked Ensemble Modeling of California Wildfire Susceptibility with Infrastructure–Risk Alignment Diagnostics
 
 This repository contains a modular and fully reproducible system for constructing a 1-km–resolution wildfire 
 susceptibility model for California. The project integrates climate variables (precipitation, mean temperature), 
@@ -24,6 +24,12 @@ This is done via analyzing the correlation between the predicted fire susceptibi
 - Fully documented pipeline with reproducibility instructions
 
 ---
+
+## 🧑‍🎓 Author
+Desmond Wang
+- MSc in Management and Analytics
+- dw3336@nyu.edu
+
 
 ## 📊 Results Preview
 
@@ -53,7 +59,9 @@ You must download the required datasets manually or through their official APIs.
 - **TIGER/Line Road Centerlines**  
 - **California Interagency Fire Perimeter History**  
 - **Facility/FIRESCOP maps** (for discrepancy analysis)
-- 
+
+### **Sample Feature Visualizations**
+
 ![Topography Preview](output/elevation_tiles.png)
 
 ![Temperature Preview](output/tmean-197908.png)
