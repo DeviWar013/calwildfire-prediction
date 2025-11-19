@@ -1,0 +1,45 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Stacked Ensemble Modeling of California Wildfire
+  Susceptibility with Infrastructure–Risk Alignment
+  Diagnostics
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Dingjun
+    family-names: Wang
+    email: dw3336@nyu.edu
+identifiers:
+  - type: url
+    value: 'https://github.com/DeviWar013/calwildfire-prediction#'
+repository-code: >-
+  https://github.com/DeviWar013/calwildfire-prediction/tree/main
+url: 'https://desmondwang.github.io/'
+abstract: >-
+  This repository contains a modular and fully reproducible
+  system for constructing a 1-km–resolution wildfire
+  susceptibility model for California. The project
+  integrates climate variables (precipitation, mean
+  temperature), wind and soil moisture, vegetation profiles,
+  NDVI, road density, topography, and historical wildfire
+  perimeters, and aggregates them into a unified
+  spatiotemporal dataset (1981–2023).
+
+
+  A stacked ensemble model is then trained to predict
+  tile-level wildfire susceptibility.
+
+
+  In addition to prediction, the system includes a
+  diagnostic workflow that evaluates how well predicted
+  susceptibility aligns with the spatial distribution of
+  fire-related facilities, enabling resource–risk comparison
+  and mismatch analysis. This is done via analyzing the
+  correlation between the predicted fire susceptibility and
+  summarized facility index.
+license: MIT
